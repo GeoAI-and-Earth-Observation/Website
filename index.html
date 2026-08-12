@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The GeoAI and Earth Observation Research Group at George Mason University develops geospatial artificial intelligence and remote sensing methods for societally important challenges.">
+  <meta name="theme-color" content="#005239">
+  <title>GMU GeoAI & Earth Observation Research Group</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/data.js"></script>
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="GeoAI and Earth Observation Research Group home">
+        <span class="brand-mark" aria-hidden="true">G</span>
+        <span class="brand-text">
+          <strong>GeoAI & Earth Observation</strong>
+          <small>George Mason University</small>
+        </span>
+      </a>
+
+      <button class="menu-button" aria-expanded="false" aria-controls="site-navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="site-navigation" class="site-nav" aria-label="Primary navigation">
+        <a href="#research">Research</a>
+        <a href="#collaborations">Collaborations</a>
+        <a href="#people">People</a>
+        <a href="#publications">Publications</a>
+        <a href="join.html">Join Us</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section id="top" class="hero">
+      <div class="hero-grid"></div>
+      <div class="container hero-content">
+        <div class="eyebrow">George Mason University · Geography and Geoinformation Science</div>
+        <h1>Advancing GeoAI and Earth observation for a changing world.</h1>
+        <p class="hero-copy">
+          We develop geospatial artificial intelligence and remote sensing methods
+          to understand critical infrastructure systems, hazards, environmental change, and societal risk.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#research">Explore our research</a>
+          <a class="button button-secondary" href="#people">Meet the group</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section section-tinted">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">Research themes</div>
+            <h2>Where we focus</h2>
+          </div>
+        </div>
+        <div class="card-grid research-grid" id="research-grid"></div>
+      </div>
+    </section>
+
+    <section id="collaborations" class="section collaboration-gateway">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">Research across Mason</div>
+            <h2>GeoAI as a bridge between scientific disciplines</h2>
+          </div>
+          <p>Our research connects geospatial intelligence with fundamental science and engineering.</p>
+        </div>
+        <div class="collaboration-card-grid">
+          <article class="collaboration-card">
+            <span class="collaboration-code">PA</span>
+            <div><div class="collaboration-overline">College of Science</div><h3>Physics & Astronomy</h3><p>Space weather, geophysical hazards, coupled risk modeling, and infrastructure consequence.</p></div>
+          </article>
+          <article class="collaboration-card">
+            <span class="collaboration-code">ECE</span>
+            <div><div class="collaboration-overline">College of Engineering and Computing</div><h3>Electrical & Computer Engineering</h3><p>Power systems, communications, autonomy, sensing, and resilient cyber-physical networks.</p></div>
+          </article>
+          <article class="collaboration-card">
+            <span class="collaboration-code">CEIE</span>
+            <div><div class="collaboration-overline">College of Engineering and Computing</div><h3>Civil, Environmental & Infrastructure Engineering</h3><p>Infrastructure resilience, transportation, natural hazard risks, forecasting, and digital twins.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="people" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">Our people</div>
+            <h2>Researchers and collaborators</h2>
+          </div>
+        </div>
+        <div class="filter-row" id="people-filters" aria-label="Filter people"></div>
+        <div class="people-grid" id="people-grid"></div>
+      </div>
+    </section>
+
+    <section id="publications" class="section section-dark">
+      <div class="container">
+        <div class="section-heading section-heading-light">
+          <div>
+            <div class="section-kicker">Selected publications</div>
+            <h2>Recent scholarship</h2>
+          </div>
+          <a class="text-link light-link" href="#">View all publications <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="publication-list" id="publication-list"></div>
+      </div>
+    </section>
+
+    <section id="news" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">News and achievements</div>
+            <h2>Latest from the group</h2>
+          </div>
+        </div>
+        <div class="news-grid" id="news-grid"></div>
+      </div>
+    </section>
+
+    <section id="opportunities" class="section opportunity-section">
+      <div class="container opportunity-card">
+        <div>
+          <div class="section-kicker">Join the group</div>
+          <h2>Interested in GeoAI, remote sensing, or spatial computing?</h2>
+          <p>
+            Learn about research fit, PhD and student opportunities, useful technical preparation, and what to include
+            when contacting the group about joining or collaborating.
+          </p>
+        </div>
+        <a class="button button-primary" href="join.html">Information for prospective students</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div>
+          <div class="section-kicker">Contact</div>
+          <h2>GeoAI & Earth Observation Research Group</h2>
+          <p>Department of Geography and Geoinformation Science<br>George Mason University<br>Fairfax, Virginia, USA</p>
+        </div>
+        <div class="contact-links">
+          <span>eoughton [ at ] gmu [ dot ] edu</span>
+          <a href="https://github.com/geoai-earth-observation-research-group">GitHub organization</a>
+          <a href="https://science.gmu.edu/academics/departments-units/geography-geoinformation-science">GMU GGS website</a>
+          <a href="https://www.linkedin.com/in/edwardoughton">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="current-year"></span> GeoAI & Earth Observation Research Group, George Mason University.</p>
+      <p>This draft site is independently maintained by the research group.</p>
+    </div>
+  </footer>
+</body>
+</html>
