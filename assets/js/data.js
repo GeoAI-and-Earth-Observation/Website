@@ -25,25 +25,25 @@ window.siteData = {
     {
       name: "Edward Oughton",
       role: "Faculty",
-      title: "Faculty Lead · GMU Geography and Geoinformation Science",
+      title: "Associate Professor",
       interests: "Critical infrastructure modeling, GeoAI, risk, resilience and remote sensing",
-      image: "https://science.gmu.edu/sites/default/files/styles/medium_square/public/2020-08/image001.jpg?h=bd19e532&itok=dKpljuMk",
+      image: "assets/images/people/oughton.jpg",
       url: "https://science.gmu.edu/directory/edward-oughton"
     },
     {
       name: "Konrad Wessels",
       role: "Faculty",
-      title: "Faculty Co-Lead · GMU Geography and Geoinformation Science",
+      title: "Professor",
       interests: "Earth observation, SAR, lidar, vegetation structure and deep learning",
-      image: "https://science.gmu.edu/sites/default/files/styles/medium_square/public/2019-10/Konrad-Wessels-768x630.png?h=de3e1e37&itok=W6ax7Qmy",
+      image: "assets/images/people/wessels_edit.jpg",
       url: "https://science.gmu.edu/directory/konrad-wessels"
     },
     {
       name: "Matthew Rice",
       role: "Faculty",
-      title: "Faculty Co-Lead · GMU Geography and Geoinformation Science",
+      title: "Associate Professor",
       interests: "Geographic information science, spatial computing and geospatial technology",
-      image: "https://science.gmu.edu/sites/default/files/styles/medium_square/public/2019-10/Rice_thumbnail2018.png?h=3c9c1f33&itok=Wa15W6SF",
+      image: "assets/images/people/rice.jpg",
       url: "https://science.gmu.edu/directory/matthew-rice"
     },
     {
@@ -51,31 +51,15 @@ window.siteData = {
       role: "Faculty",
       title: "Faculty Co-Lead · GMU Physics & Astronomy",
       interests: "Space weather, magnetospheric physics, geomagnetism, and Sun–Earth system modeling",
-      image: "assets/images/people/robert-weigel.jpg",
+      image: "assets/images/people/weigel.jpg",
       url: "https://science.gmu.edu/directory/robert-weigel"
-    },
-    {
-      name: "James Gallagher",
-      role: "Affiliated Researchers",
-      title: "Affiliated Researcher",
-      interests: "Multispectral remote sensing, computer vision and autonomous sensing systems",
-      image: "https://i1.rgstatic.net/ii/profile.image/11431281254477135-1719194920583_Q128/James-Gallagher-30.jpg",
-      url: "https://www.researchgate.net/profile/James-Gallagher-30"
-    },
-    {
-      name: "Caitlin LaNeve",
-      role: "Affiliated Researchers",
-      title: "Affiliated Researcher",
-      interests: "GeoAI, Earth observation and geospatial research",
-      image: "assets/images/people/caitlin-laneve.jpeg",
-      url: "https://www.linkedin.com/in/caitlin-laneve-b82b2bb8"
     },
     {
       name: "Dennies Bor",
       role: "PhD Students",
       title: "PhD Graduate Student",
       interests: "Critical infrastructure, space weather risk and geospatial modeling",
-      image: "https://i1.rgstatic.net/ii/profile.image/11431281120769946-1676643170359_Q128/Dennies-Bor.jpg",
+      image: "assets/images/people/bor.jpg",
       url: "https://www.linkedin.com/in/denniesbor/"
     },
     {
@@ -83,15 +67,31 @@ window.siteData = {
       role: "PhD Students",
       title: "PhD Graduate Student",
       interests: "GeoAI and transportation modeling",
-      image: "assets/images/people/ali-kothawala.png",
+      image: "assets/images/people/kothawala.jpg",
       url: "https://www.linkedin.com/in/alimurtazakothawala/"
+    },
+    {
+      name: "James Gallagher",
+      role: "Affiliated Researchers",
+      title: "Affiliated Researcher",
+      interests: "Multispectral remote sensing, computer vision and autonomous sensing systems",
+      image: "assets/images/people/gallagher.jpg",
+      url: "https://www.researchgate.net/profile/James-Gallagher-30"
+    },
+    {
+      name: "Caitlin LaNeve",
+      role: "Affiliated Researchers",
+      title: "Affiliated Researcher",
+      interests: "GeoAI, Earth observation and geospatial research",
+      image: "assets/images/people/laneve.jpg",
+      url: "https://www.linkedin.com/in/caitlin-laneve-b82b2bb8"
     },
     {
       name: "Justin Guthrie",
       role: "Research Assistants",
       title: "Research Assistant",
       interests: "GIS, geospatial machine learning and spatial data analysis",
-      image: "assets/images/people/justin-guthrie.jpg",
+      image: "assets/images/people/guthrie.jpg",
       url: "https://www.linkedin.com/in/justinmguthrie"
     }
   ],

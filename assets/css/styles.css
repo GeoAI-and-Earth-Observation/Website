@@ -561,7 +561,7 @@ button, input, textarea, select { font: inherit; }
 }
 
 .person-image {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 10 / 11;
   display: grid;
   place-items: center;
   color: rgba(255,255,255,.9);
