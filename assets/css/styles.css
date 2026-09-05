@@ -698,6 +698,35 @@ button, input, textarea, select { font: inherit; }
 
 .news-card .text-link { margin-top: auto; }
 
+.news-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+  margin-top: 32px;
+}
+
+.news-pagination[hidden] { display: none; }
+
+.page-button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--muted);
+  background: white;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.page-button:hover,
+.page-button:focus-visible,
+.page-button.active {
+  color: white;
+  border-color: var(--mason-green);
+  background: var(--mason-green);
+}
+
 .opportunity-section {
   padding-top: 0;
 }
