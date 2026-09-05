@@ -27,7 +27,7 @@ window.siteData = {
       role: "Faculty",
       title: "Associate Professor",
       interests: "Critical infrastructure modeling, GeoAI, risk, resilience and remote sensing",
-      image: "assets/images/people/oughton.jpg",
+      image: "assets/images/people/oughton-reframed-v3.jpg",
       url: "https://science.gmu.edu/directory/edward-oughton"
     },
     {
@@ -98,6 +98,13 @@ window.siteData = {
 
   publications: [
     {
+      year: "2026",
+      type: "Journal",
+      title: "Global vulnerability assessment of mobile telecommunications infrastructure to climate hazards using crowdsourced open data",
+      citation: "Oughton, E. J., Russell, T., Oh, J., Ballan, S., & Hall, J. W. Nature Communications.",
+      url: "https://doi.org/10.1038/s41467-026-76197-w"
+    },
+    {
       year: "2025",
       type: "Journal",
       title: "Emissions assessment of Low Earth Orbit (LEO) broadband megaconstellations: Starlink, OneWeb and Kuiper",
@@ -149,6 +156,38 @@ window.siteData = {
   ],
 
   news: [
+    {
+      type: "Media",
+      date: "September 2026",
+      title: "CNN features our research on solar storms and U.S. power grid risk",
+      summary: "CNN's interactive article covers findings from our new AGU Advances paper and includes a data tool that helps readers explore their potential exposure to power grid disruption from a major solar storm.",
+      url: "https://www.cnn.com/interactive/2026/07/weather/solar-storms-power-grid/",
+      linkLabel: "Explore the CNN feature"
+    },
+    {
+      type: "Media",
+      date: "September 2026",
+      title: "AGU Eos highlights our research on the economic costs of solar storms",
+      summary: "The Eos research spotlight explores findings from our recent AGU Advances paper, including the potential power outages and economic losses caused by severe geomagnetic storms in the United States.",
+      url: "https://eos.org/research-spotlights/the-economic-costs-of-solar-storms",
+      linkLabel: "Read spotlight"
+    },
+    {
+      type: "Publication",
+      date: "September 2026",
+      title: "New AGU Advances publication on the economic risks of extreme space weather",
+      summary: "Major Space Weather Risks Identified via Coupled Physics–Engineering–Economic Modeling estimates that a 250-year geomagnetic storm could cause $1.81 billion in daily U.S. economic losses.",
+      url: "https://doi.org/10.1029/2026AV002367",
+      linkLabel: "Read paper"
+    },
+    {
+      type: "Grant",
+      date: "August 2026",
+      title: "New $500K NSF award for AI-enabled space weather risk research",
+      summary: "This new project will develop open-source tools that translate uncertainty in space weather forecasts into actionable risk information for satellite operations, helping strengthen the resilience of space infrastructure.",
+      url: "https://www.nsf.gov/awardsearch/show-award?AWD_ID=2629145",
+      linkLabel: "See grant details"
+    },
     {
       type: "Grant",
       date: "August 2026",

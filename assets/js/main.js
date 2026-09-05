@@ -64,8 +64,15 @@
     `).join("");
   };
 
-  const renderNews = () => {
-    document.querySelector("#news-grid").innerHTML = data.news.map(item => `
+  const NEWS_PAGE_SIZE = 6;
+
+  const renderNews = (requestedPage = 1) => {
+    const pageCount = Math.ceil(data.news.length / NEWS_PAGE_SIZE);
+    const page = Math.min(Math.max(requestedPage, 1), pageCount);
+    const startIndex = (page - 1) * NEWS_PAGE_SIZE;
+    const visibleNews = data.news.slice(startIndex, startIndex + NEWS_PAGE_SIZE);
+
+    document.querySelector("#news-grid").innerHTML = visibleNews.map(item => `
       <article class="news-card">
         <div class="news-meta">
           <span class="news-type">${item.type}</span>
@@ -77,6 +84,23 @@
         <a class="text-link" href="${item.url}">${item.linkLabel || "Read update"} <span aria-hidden="true">→</span></a>
       </article>
     `).join("");
+
+    const pagination = document.querySelector("#news-pagination");
+    pagination.hidden = pageCount <= 1;
+    pagination.innerHTML = Array.from({ length: pageCount }, (_, index) => {
+      const pageNumber = index + 1;
+      const isCurrent = pageNumber === page;
+      return `<button class="page-button${isCurrent ? " active" : ""}" type="button" data-page="${pageNumber}" aria-label="Show news page ${pageNumber}"${isCurrent ? ' aria-current="page"' : ""}>${pageNumber}</button>`;
+    }).join("");
+  };
+
+  const setupNewsPagination = () => {
+    document.querySelector("#news-pagination").addEventListener("click", event => {
+      const button = event.target.closest("button[data-page]");
+      if (!button) return;
+      renderNews(Number(button.dataset.page));
+      document.querySelector("#news").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
   };
 
   const setupNavigation = () => {
@@ -101,7 +125,10 @@
   if (data && document.querySelector("#people-filters")) renderPeopleFilters();
   if (data && document.querySelector("#people-grid")) renderPeople();
   if (data && document.querySelector("#publication-list")) renderPublications();
-  if (data && document.querySelector("#news-grid")) renderNews();
+  if (data && document.querySelector("#news-grid")) {
+    renderNews();
+    setupNewsPagination();
+  }
   setupNavigation();
   const year = document.querySelector("#current-year");
   if (year) year.textContent = new Date().getFullYear();
