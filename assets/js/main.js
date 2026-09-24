@@ -44,8 +44,8 @@
         <div class="person-body">
           <div class="person-role">${person.role}</div>
           <h3>${person.name}</h3>
-          <p><strong>${person.title}</strong><br>${person.interests}</p>
-          <a class="text-link" href="${person.url}">View profile <span aria-hidden="true">→</span></a>
+          <p><strong>${person.title}</strong>${person.interests ? `<br>${person.interests}` : ""}</p>
+          ${person.url ? `<a class="text-link" href="${person.url}">View profile <span aria-hidden="true">→</span></a>` : ""}
         </div>
       </article>
     `).join("");

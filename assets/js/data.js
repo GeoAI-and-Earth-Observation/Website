@@ -71,6 +71,22 @@ window.siteData = {
       url: "https://www.linkedin.com/in/alimurtazakothawala/"
     },
     {
+      name: "Lucy Wilkerson",
+      role: "PhD Students",
+      title: "PhD Graduate Student",
+      interests: "Space weather, power systems, geomagnetically induced currents",
+      image: "assets/images/people/wilkerson-profile.jpg",
+      url: ""
+    },
+    {
+      name: "Dean Thomas",
+      role: "Affiliated Researchers",
+      title: "Affiliated Researcher",
+      interests: "Space weather, magnetospheric physics, geomagnetism, and Sun–Earth system modeling",
+      image: "assets/images/people/thomas-profile.jpg",
+      url: ""
+    },
+    {
       name: "James Gallagher",
       role: "Affiliated Researchers",
       title: "Affiliated Researcher",
@@ -91,7 +107,7 @@ window.siteData = {
       role: "Research Assistants",
       title: "Research Assistant",
       interests: "GIS, geospatial machine learning and spatial data analysis",
-      image: "assets/images/people/guthrie.jpg",
+      image: "assets/images/people/guthrie.png",
       url: "https://www.linkedin.com/in/justinmguthrie"
     }
   ],
