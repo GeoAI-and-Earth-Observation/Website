@@ -99,7 +99,7 @@ window.siteData = {
       role: "Affiliated Researchers",
       title: "Affiliated Researcher",
       interests: "GeoAI, Earth observation and geospatial research",
-      image: "assets/images/people/laneve.jpg",
+      image: "assets/images/people/laneve-profile.jpg",
       url: "https://www.linkedin.com/in/caitlin-laneve-b82b2bb8"
     },
     {
