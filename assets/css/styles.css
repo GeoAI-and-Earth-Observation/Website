@@ -1053,3 +1053,22 @@ button, input, textarea, select { font: inherit; }
   .collab-topic-grid, .related-collab-grid { grid-template-columns: 1fr; }
   .collab-topic-card, .collab-panel { padding: 26px 24px; }
 }
+
+/* Give student instructions more room for questions and longer answers. */
+#student-instructions .faq-layout {
+  grid-template-columns: minmax(0, .55fr) minmax(0, 1.45fr);
+  gap: 48px;
+}
+
+#student-instructions .faq-list details p {
+  max-width: none;
+  margin-right: 0;
+  text-align: justify;
+}
+
+@media (max-width: 900px) {
+  #student-instructions .faq-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 42px;
+  }
+}
